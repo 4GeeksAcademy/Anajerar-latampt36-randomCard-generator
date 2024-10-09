@@ -1,1 +1,35 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: aquamarine;
+}
+.full-card {
+  background-color: white;
+  width: 200px;
+  height: 300px;
+  margin: auto;
+  margin-top: 5px;
+  border-radius: 15px;
+  border: 1px solid;
+}
+.top-card {
+  text-align: left;
+  font-size: 39px;
+  padding: 4%;
+}
+
+.middle-card {
+  text-align: center;
+  font-size: 66px;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+.flipped {
+  display: inline-block;
+  transform: rotate(180deg);
+  font-size: 39px;
+  position: relative;
+  padding: 4%;
+  left: 77%;
+}
